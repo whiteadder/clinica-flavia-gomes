@@ -512,6 +512,14 @@ h3 {
   color: var(--muted);
 }
 
+.step-modes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
 /* FAQ */
 .faq-list {
   display: grid;
