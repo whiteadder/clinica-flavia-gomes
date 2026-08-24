@@ -30,6 +30,7 @@
 
 html {
   scroll-behavior: smooth;
+  interpolate-size: allow-keywords;
 }
 
 body {
@@ -111,7 +112,8 @@ p {
 
   .reveal,
   .focus-thread,
-  .hero-shape .blob {
+  .hero-shape .blob,
+  .faq-item::details-content {
     animation: none !important;
     transition: none !important;
   }
@@ -558,6 +560,21 @@ h3 {
 .faq-item p {
   margin-top: 0.85rem;
   color: var(--muted);
+}
+
+.faq-item::details-content {
+  opacity: 0;
+  block-size: 0;
+  overflow: hidden;
+  transition:
+    block-size 0.35s ease,
+    opacity 0.3s ease,
+    content-visibility 0.35s allow-discrete;
+}
+
+.faq-item[open]::details-content {
+  opacity: 1;
+  block-size: auto;
 }
 
 /* Contact */
