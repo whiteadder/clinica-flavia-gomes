@@ -744,6 +744,10 @@ h3 {
     grid-template-columns: minmax(14rem, 0.85fr) minmax(0, 1.15fr);
     align-items: start;
   }
+
+  #sobre .section-copy {
+    padding-top: 2.55rem;
+  }
 }
 
 /* ≤420px */
