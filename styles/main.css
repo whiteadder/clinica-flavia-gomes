@@ -1,23 +1,24 @@
-/* Design system: Organic Biophilic — sage neutrals + deep teal (ui-ux-pro-max)
-   Type: Lora (display) / Raleway (body). Mobile-first. */
+/* Design system alinhado com a identidade Instagram @psic.flaviagomes:
+   marfim/creme, rosa-velho, sépia. Type: Cormorant Garamond / Raleway. Mobile-first.
+   Nomes --teal* mantidos como tokens de accent para não tocar no resto do ficheiro. */
 
 :root {
-  --bg: #F5F5F0;
-  --bg-tint: #EBEFE8;
+  --bg: #FAF6F0;
+  --bg-tint: #F2EAE1;
   --surface: #FFFFFF;
-  --text: #1F2A28;
-  --muted: #52605D;
-  --line: #DDE3DC;
-  --teal: #0E7C74;
-  --teal-deep: #0A5F59;
-  --teal-soft: #D8EAE7;
-  --sage: #7C8B7A;
+  --text: #43362E;
+  --muted: #77655A;
+  --line: #E8DED3;
+  --teal: #9E5F58;
+  --teal-deep: #83473F;
+  --teal-soft: #F0DFD8;
+  --sage: #A98F72;
   --radius: 22px;
   --radius-sm: 14px;
-  --shadow: 0 14px 40px rgba(31, 42, 40, 0.08);
-  --shadow-soft: 0 6px 18px rgba(31, 42, 40, 0.05);
+  --shadow: 0 14px 40px rgba(67, 54, 46, 0.09);
+  --shadow-soft: 0 6px 18px rgba(67, 54, 46, 0.05);
   --container: 1080px;
-  --font-display: "Lora", Georgia, serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "Raleway", "Segoe UI", sans-serif;
 }
 
@@ -138,7 +139,7 @@ p {
 
 /* Header */
 .site-header {
-  background: rgba(245, 245, 240, 0.92);
+  background: rgba(250, 246, 240, 0.92);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
 }
@@ -257,7 +258,7 @@ h2,
 h3 {
   margin: 0;
   font-family: var(--font-display);
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.01em;
 }
