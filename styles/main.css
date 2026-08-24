@@ -607,10 +607,14 @@ h3 {
   color: var(--muted);
 }
 
-.contact-number {
-  margin-top: 1rem;
-  font-weight: 600;
-  color: var(--teal-deep);
+.contact-actions {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.8rem;
+}
+
+.contact-actions .button {
+  width: 100%;
 }
 
 .contact-disclaimer {
