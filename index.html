@@ -74,7 +74,7 @@
             a singularidade do seu processo.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#contacto">Marcar consulta</a>
+            <a class="button button-primary" href="https://wa.me/351913939803?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta." rel="noopener" target="_blank">Marcar consulta por WhatsApp</a>
             <a class="button button-secondary" href="#contacto">Entrar em contacto</a>
           </div>
         </div>
@@ -153,7 +153,7 @@
             <h3>Consultas Online e Presenciais</h3>
             <p>
               As consultas podem realizar-se online ou presencialmente, conforme a sua
-              preferência e disponibilidade. Pode enviar uma mensagem breve através do formulário.
+              preferência e disponibilidade. Pode enviar uma mensagem breve por WhatsApp.
             </p>
           </article>
 
@@ -204,9 +204,9 @@
           </details>
 
           <details class="faq-item">
-            <summary>O formulário substitui uma consulta?</summary>
+            <summary>A mensagem inicial substitui uma consulta?</summary>
             <p>
-              Não. O formulário serve apenas para um contacto inicial. O acompanhamento
+              Não. A mensagem serve apenas para um contacto inicial. O acompanhamento
               psicológico começa apenas em contexto de consulta.
             </p>
           </details>
@@ -214,8 +214,8 @@
           <details class="faq-item">
             <summary>Como são tratados os dados enviados?</summary>
             <p>
-              Os dados enviados destinam-se apenas à resposta ao pedido de contacto e devem ser
-              tratados com confidencialidade.
+              Os dados partilhados no contacto inicial destinam-se apenas à resposta ao seu
+              pedido e são tratados com confidencialidade.
             </p>
           </details>
         </div>
@@ -229,121 +229,31 @@
           <h2>Entre em contacto</h2>
           <p>
             Se pretender colocar uma questão, pedir mais informações ou solicitar marcação de
-            consulta, pode utilizar o formulário abaixo.
+            consulta, pode enviar uma mensagem por WhatsApp.
           </p>
           <p class="contact-note">
-            Responderei com a maior brevidade possível. Os campos assinalados com
-            <span aria-hidden="true">*</span> são obrigatórios.
+            Responderei com a maior brevidade possível.
           </p>
         </div>
 
-        <form class="contact-form" id="contact-form" novalidate aria-describedby="form-intro form-status">
-          <p class="form-intro" id="form-intro">
+        <div class="contact-card">
+          <p class="card-label">WhatsApp</p>
+          <p class="contact-card-text">
             Pode escrever de forma simples e breve. Esta mensagem destina-se apenas a um primeiro
-            contacto.
+            contacto e não substitui acompanhamento clínico nem resposta a situações de urgência.
           </p>
+          <a
+            class="button button-primary whatsapp-button"
+            href="https://wa.me/351913939803?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta."
+            rel="noopener"
+            target="_blank"
+          >
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.5 7.5 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5v-.4c0-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2 0-.1-.2-.2-.4-.3Z"/></svg>
+            Enviar mensagem no WhatsApp
+          </a>
+          <p class="contact-card-number">+351 913 939 803</p>
+        </div>
 
-          <div class="form-grid">
-          <div class="form-field form-field-half">
-            <label for="name">Nome completo <span aria-hidden="true">*</span></label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              autocomplete="name"
-              required
-              aria-required="true"
-              aria-describedby="name-hint name-error"
-              placeholder="O seu nome"
-            >
-            <p class="field-hint" id="name-hint">Indique o nome pelo qual pretende ser identificado(a).</p>
-            <p class="field-error" id="name-error" aria-live="polite"></p>
-          </div>
-
-          <div class="form-field form-field-half">
-            <label for="email">Endereço de email <span aria-hidden="true">*</span></label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              autocomplete="email"
-              inputmode="email"
-              required
-              aria-required="true"
-              aria-describedby="email-hint email-error"
-              placeholder="nome@exemplo.pt"
-            >
-            <p class="field-hint" id="email-hint">Será utilizado apenas para responder ao seu pedido de contacto.</p>
-            <p class="field-error" id="email-error" aria-live="polite"></p>
-          </div>
-
-          <div class="form-field form-field-half">
-            <label for="phone">Telefone <span>(opcional)</span></label>
-            <input
-              id="phone"
-              name="phone"
-              type="tel"
-              autocomplete="tel"
-              inputmode="tel"
-              aria-describedby="phone-hint phone-error"
-              placeholder="912 345 678"
-            >
-            <p class="field-hint" id="phone-hint">Opcional. Preencha apenas se preferir contacto telefónico.</p>
-            <p class="field-error" id="phone-error" aria-live="polite"></p>
-          </div>
-
-          <div class="form-field form-field-full">
-            <label for="message">Mensagem <span aria-hidden="true">*</span></label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              required
-              aria-required="true"
-              aria-describedby="message-hint message-error"
-              minlength="20"
-              placeholder="Escreva aqui a sua mensagem"
-            ></textarea>
-            <p class="field-hint" id="message-hint">
-              Pode indicar, por exemplo, o motivo do contacto ou a sua disponibilidade para ser
-              contactado(a).
-            </p>
-            <p class="field-error" id="message-error" aria-live="polite"></p>
-          </div>
-          </div>
-
-          <div class="form-consent-card">
-          <div class="form-consent">
-            <input
-              id="consent"
-              name="consent"
-              type="checkbox"
-              required
-              aria-required="true"
-              aria-describedby="consent-hint consent-error"
-            >
-            <label for="consent">
-              Confirmo que li esta informação e autorizo a utilização dos meus dados apenas para
-              resposta a este pedido de contacto. <span aria-hidden="true">*</span>
-            </label>
-          </div>
-          <p class="field-hint consent-hint" id="consent-hint">
-            Esta autorização serve apenas para efeitos de resposta ao seu contacto. Não existe
-            qualquer integração com serviços externos nesta fase.
-          </p>
-          <p class="field-error" id="consent-error" aria-live="polite"></p>
-          </div>
-
-          <div class="form-actions">
-            <button class="button button-primary" type="submit">Enviar mensagem</button>
-            <p class="form-note">
-              Este formulário destina-se apenas a contacto inicial e não substitui acompanhamento
-              clínico nem resposta a situações de urgência.
-            </p>
-          </div>
-
-          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
-        </form>
       </div>
     </section>
   </main>
@@ -353,8 +263,8 @@
       <div>
         <p>Flávia Gomes — Psicóloga</p>
         <p class="footer-note">
-          Este site não utiliza cookies nem ferramentas de rastreamento. Os dados enviados pelo
-          formulário destinam-se apenas à resposta ao seu pedido de contacto (RGPD).
+          Este site não utiliza cookies nem ferramentas de rastreamento, e não recolhe dados
+          pessoais (RGPD). O contacto é feito diretamente por WhatsApp.
         </p>
       </div>
       <div class="footer-links">
@@ -364,6 +274,5 @@
     </div>
   </footer>
 
-  <script src="scripts/main.js"></script>
 </body>
 </html>

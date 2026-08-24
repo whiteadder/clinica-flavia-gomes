@@ -315,6 +315,7 @@ p {
 .info-card,
 .step-card,
 .contact-form,
+.contact-card,
 .faq-item {
   background: rgba(255, 252, 246, 0.88);
   border: 1px solid rgba(228, 214, 195, 0.9);
@@ -680,6 +681,30 @@ p {
   border-color: rgba(168, 134, 85, 0.5);
   box-shadow: 0 0 0 4px rgba(200, 171, 121, 0.1);
   background: rgba(255, 250, 242, 0.92);
+}
+
+.contact-card {
+  padding: clamp(1.95rem, 3vw, 2.7rem);
+  background:
+    linear-gradient(180deg, rgba(255, 252, 246, 0.98), rgba(245, 239, 230, 0.94));
+  align-self: start;
+}
+
+.contact-card-text {
+  color: var(--muted);
+  margin-bottom: 1.6rem;
+}
+
+.whatsapp-button {
+  gap: 0.6rem;
+  width: 100%;
+}
+
+.contact-card-number {
+  margin-top: 1rem;
+  color: var(--muted-soft);
+  font-size: 0.95rem;
+  text-align: center;
 }
 
 .field-error {
